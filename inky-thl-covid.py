@@ -54,7 +54,7 @@ args = my_parser.parse_args()
 
 def GrabData(area):
 	# We need to adjust user agent
-	url = 'https://sampo.thl.fi/pivot/prod/fi/epirapo/covid19case/fact_epirapo_covid19case.csv?row=hcdmunicipality2020-{}.&column=dateweek2020010120201231-443686&filter=measure-444833'.format(area)
+	url = 'https://sampo.thl.fi/pivot/prod/fi/epirapo/covid19case/fact_epirapo_covid19case.csv?row=hcdmunicipality2020-{}.&column=dateweek20200101-509030&filter=measure-444833'.format(area)
 	req = Request(url)
 	req.add_header('User-Agent', 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0')
 	content = urlopen(req)
