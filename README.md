@@ -33,3 +33,7 @@ python3 inky-thl-covid.py
 ```
 # license
 GPL-3
+
+# repository
+
+https://github.com/pfect/inky-thl-covid.git
